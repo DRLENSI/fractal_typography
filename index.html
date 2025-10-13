@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fractal Typography - Digital Homebase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Fractal Typography</h1>
+            <p class="tagline">Recursion in Typography • Sierpinski Carpets in LaTeX</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#showcase">Showcase</a></li>
+                <li><a href="#forge">Forge Essays</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="container">
+            <div class="hero-content">
+                <h2>yo dawg I heard you like type so we put some recursion in yo recursion</h2>
+                <p>Fractal Typography implements a Sierpinski carpet using LaTeX, creating infinitely recursive typographic patterns.</p>
+                <img src="figures/s3.png" alt="Fractal Typography Level 3" class="hero-image">
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About The Project</h2>
+            <p>This project implements a <a href="https://en.wikipedia.org/wiki/Sierpinski_carpet" target="_blank">Sierpinski carpet</a> using LaTeX. It creates fractal patterns by recursively embedding typographic designs within themselves.</p>
+            
+            <div class="features">
+                <div class="feature">
+                    <h3>🔄 Recursive Generation</h3>
+                    <p>Each level builds on the previous, creating exponentially complex patterns</p>
+                </div>
+                <div class="feature">
+                    <h3>📐 Mathematical Beauty</h3>
+                    <p>Based on the classic Sierpinski carpet fractal pattern</p>
+                </div>
+                <div class="feature">
+                    <h3>📝 LaTeX-Powered</h3>
+                    <p>Uses LaTeX for precise typographic control and rendering</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="showcase" class="container">
+            <h2>Fractal Showcase</h2>
+            <p>Explore the different recursion levels. Each level contains 8 times more copies than the previous.</p>
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="figures/s1.png" alt="Level 1">
+                    <div class="gallery-info">
+                        <h3>Level 1</h3>
+                        <p>Source image</p>
+                        <a href="pdf/level_001.pdf" class="btn" download>Download PDF</a>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="figures/s2.png" alt="Level 2">
+                    <div class="gallery-info">
+                        <h3>Level 2</h3>
+                        <p>8 copies</p>
+                        <a href="pdf/level_002.pdf" class="btn" download>Download PDF</a>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="figures/s3.png" alt="Level 3">
+                    <div class="gallery-info">
+                        <h3>Level 3</h3>
+                        <p>512 copies</p>
+                        <a href="pdf/level_003.pdf" class="btn" download>Download PDF</a>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="figures/s4.png" alt="Level 4">
+                    <div class="gallery-info">
+                        <h3>Level 4</h3>
+                        <p>4,096 copies</p>
+                        <a href="pdf/level_004.pdf" class="btn" download>Download PDF</a>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="figures/s5.png" alt="Level 5">
+                    <div class="gallery-info">
+                        <h3>Level 5</h3>
+                        <p>32,768 copies</p>
+                        <a href="pdf/level_005.pdf" class="btn" download>Download PDF</a>
+                    </div>
+                </div>
+
+                <div class="gallery-item special">
+                    <div class="level-999">
+                        <h3>Level 999</h3>
+                        <p>8<sup>999</sup> copies</p>
+                        <p class="challenge">Good luck!</p>
+                        <a href="pdf/level_999.pdf" class="btn" download>Download PDF</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="forge" class="container">
+            <h2>The Forge • Essays & Fragments</h2>
+            <p>Exploring the intersection of typography, mathematics, and recursive beauty.</p>
+            
+            <div class="forge-content">
+                <div class="essay-card">
+                    <h3>On Recursive Typography</h3>
+                    <p>Typography has always been about patterns and structure. Fractal typography takes this to its logical extreme—patterns within patterns, infinitely.</p>
+                    <a href="#" class="read-more">Read more →</a>
+                </div>
+
+                <div class="essay-card">
+                    <h3>The Mathematics of Beauty</h3>
+                    <p>The Sierpinski carpet is more than a mathematical curiosity. It's a visual representation of infinity, captured in finite space.</p>
+                    <a href="#" class="read-more">Read more →</a>
+                </div>
+
+                <div class="substack-cta">
+                    <h3>📬 Subscribe to Updates</h3>
+                    <p>Get notified about new fractal experiments, essays, and discoveries.</p>
+                    <form class="substack-form" action="#" method="post">
+                        <input type="email" placeholder="your@email.com" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                    <p class="small-text">Or follow along on <a href="#" target="_blank">Substack</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="container">
+            <h2>How It Works</h2>
+            <div class="technical">
+                <div class="code-explanation">
+                    <h3>The Process</h3>
+                    <ol>
+                        <li>Create a source image using LaTeX (customizable via <code>source.tex</code>)</li>
+                        <li>Compile the source to PDF using <code>pdflatex</code></li>
+                        <li>Apply the Sierpinski template pattern (8 copies in a 3×3 grid with center missing)</li>
+                        <li>Recursively rebuild each level using the previous compilation</li>
+                    </ol>
+                </div>
+
+                <div class="code-sample">
+                    <h3>LaTeX Template</h3>
+                    <pre><code>\newcommand{\A}{\includegraphics[width=50cm]{pdf/source.pdf}}
+
+\begin{tabular}{lll}
+\A & \A & \A\\
+\A &    & \A\\
+\A & \A & \A
+\end{tabular}</code></pre>
+                </div>
+
+                <div class="get-started">
+                    <h3>Get Started</h3>
+                    <p>Install <code>pdflatex</code> and <code>pdfcrop</code>, then run:</p>
+                    <pre><code>python build_recursion.py</code></pre>
+                    <a href="https://github.com/DRLENSI/fractal_typography" class="btn btn-primary" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Fractal Typography • First presented at <a href="https://www.meetup.com/DC-Hack-and-Tell/events/220231803/" target="_blank">DC Hack && Tell Round 27</a></p>
+            <p><a href="https://github.com/DRLENSI/fractal_typography" target="_blank">GitHub</a> • <a href="http://thoppe.github.io/fractal_typography/HnT_index.html#/" target="_blank">Original Presentation</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

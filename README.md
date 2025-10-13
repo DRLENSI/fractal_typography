@@ -1,6 +1,10 @@
 # Fractal typography
 
-This project implements a [Sierpinski carpet](https://en.wikipedia.org/wiki/Sierpinski_carpet) using LaTeX. 
+This project implements a [Sierpinski carpet](https://en.wikipedia.org/wiki/Sierpinski_carpet) using LaTeX.
+
+## 🌐 Digital Homebase
+
+Visit the [website](index.html) to explore the full showcase, read essays about recursive typography, and subscribe to updates. 
 
 To start, install `pdflatex` and `pdfcrop` and run
 
